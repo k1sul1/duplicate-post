@@ -208,7 +208,9 @@ function duplicate_post_show_update_notice() {
 	if(!current_user_can( 'manage_options')) return;
 	$class = 'notice is-dismissible';
 	/* translators: %1$s: Yoast, %2$s: version number */
-	$message = '<p style="margin: 0;"><strong>' . sprintf( __( 'What\'s new in %1$s Duplicate Post version %2$s:', 'duplicate-post' ), 'Yoast', DUPLICATE_POST_CURRENT_VERSION ) . '</strong></p>';
+	$message = '<p style="margin: 0;"><strong>' . sprintf( __( 'What\'s new in %1$s Duplicate Post version %2$s:', 'duplicate-post' ), 'Yoast', DUPLICATE_POST_CURRENT_VERSION ) . '</strong> ';
+	/* translators: %s: Yoast */
+	$message .= sprintf( __( 'First release from %s + accessibility improvements + deprecated filter', 'duplicate-post' ), 'Yoast' ) . '</p>';
 	$message .= '<p>%%SIGNUP_FORM%%</p>';
 	$message .= esc_html__('Serving the WordPress community since November 2007.', 'duplicate-post');
 	global $wp_version;
