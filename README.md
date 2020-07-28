@@ -5,5 +5,5 @@ This is a fork of Duplicate Post 3.2.4, which happens to be the last release bef
 I'm not interested in finding an alternative at the moment, as this is easier. 
 
 ```
-composer require k1sul1/duplicate-post`
+composer require k1sul1/duplicate-post
 ```
