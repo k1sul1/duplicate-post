@@ -1,0 +1,13 @@
+{
+  "name": "k1sul1/duplicate-post",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "k1sul1",
+      "email": "me@kisu.li"
+    }
+  ],
+  "require": {}
+}
+
